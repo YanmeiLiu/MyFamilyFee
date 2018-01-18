@@ -1,0 +1,273 @@
+2018-01-18 10:37:59,995 / search_data / INFO / 准备查询数据
+2018-01-18 10:37:59,995 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:38:00,059 / search_data / INFO / 查询完数据
+2018-01-18 10:38:37,643 / search_data / INFO / 准备查询数据
+2018-01-18 10:38:37,643 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:38:37,732 / search_data / INFO / 查询完数据
+2018-01-18 10:39:29,980 / search_data / INFO / 准备查询数据
+2018-01-18 10:39:29,980 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:39:30,069 / search_data / INFO / 查询完数据
+2018-01-18 10:39:53,881 / search_data / INFO / 准备查询数据
+2018-01-18 10:39:53,881 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:39:53,982 / search_data / INFO / 查询完数据
+2018-01-18 10:40:48,473 / search_data / INFO / 准备查询数据
+2018-01-18 10:40:48,473 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:40:48,591 / search_data / INFO / 查询完数据
+2018-01-18 10:41:21,261 / search_data / INFO / 准备查询数据
+2018-01-18 10:41:21,262 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 10:41:21,337 / search_data / INFO / 查询完数据
+2018-01-18 11:13:39,606 / search_data / INFO / 准备查询数据
+2018-01-18 11:13:39,606 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:13:39,714 / search_data / INFO / 查询完数据
+2018-01-18 11:16:47,880 / search_data / INFO / 准备查询数据
+2018-01-18 11:16:47,880 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:16:47,973 / search_data / INFO / 查询完数据
+2018-01-18 11:17:04,667 / search_data / INFO / 准备查询数据
+2018-01-18 11:17:04,668 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:17:04,802 / search_data / INFO / 查询完数据
+2018-01-18 11:17:59,016 / search_data / INFO / 准备查询数据
+2018-01-18 11:17:59,017 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:17:59,179 / search_data / INFO / 查询完数据
+2018-01-18 11:19:33,647 / search_data / INFO / 准备查询数据
+2018-01-18 11:19:33,647 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:19:33,759 / search_data / INFO / 查询完数据
+2018-01-18 11:21:56,291 / search_data / INFO / 准备查询数据
+2018-01-18 11:21:56,291 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:21:56,382 / search_data / INFO / 查询完数据
+2018-01-18 11:22:19,581 / search_data / INFO / 准备查询数据
+2018-01-18 11:22:19,581 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:22:19,703 / search_data / INFO / 查询完数据
+2018-01-18 11:22:35,869 / search_data / INFO / 准备查询数据
+2018-01-18 11:22:35,869 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:22:35,957 / search_data / INFO / 查询完数据
+2018-01-18 11:22:58,990 / search_data / INFO / 准备查询数据
+2018-01-18 11:22:58,991 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:22:59,155 / search_data / INFO / 查询完数据
+2018-01-18 11:24:33,723 / search_data / INFO / 准备查询数据
+2018-01-18 11:24:33,723 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:24:33,905 / search_data / INFO / 查询完数据
+2018-01-18 11:25:01,481 / search_data / INFO / 准备查询数据
+2018-01-18 11:25:01,481 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:25:01,590 / search_data / INFO / 查询完数据
+2018-01-18 11:25:21,340 / search_data / INFO / 准备查询数据
+2018-01-18 11:25:21,340 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:25:21,448 / search_data / INFO / 查询完数据
+2018-01-18 11:25:35,366 / search_data / INFO / 准备查询数据
+2018-01-18 11:25:35,367 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:25:35,473 / search_data / INFO / 查询完数据
+2018-01-18 11:25:47,759 / search_data / INFO / 准备查询数据
+2018-01-18 11:25:47,759 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:25:47,871 / search_data / INFO / 查询完数据
+2018-01-18 11:26:38,655 / search_data / INFO / 准备查询数据
+2018-01-18 11:26:38,655 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:26:38,782 / search_data / INFO / 查询完数据
+2018-01-18 11:28:15,676 / search_data / INFO / 准备查询数据
+2018-01-18 11:28:15,676 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:28:15,837 / search_data / INFO / 查询完数据
+2018-01-18 11:29:07,706 / search_data / INFO / 准备查询数据
+2018-01-18 11:29:07,706 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:29:07,861 / search_data / INFO / 查询完数据
+2018-01-18 11:32:39,863 / search_data / INFO / 准备查询数据
+2018-01-18 11:32:39,863 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:32:40,000 / search_data / INFO / 查询完数据
+2018-01-18 11:34:37,169 / search_data / INFO / 准备查询数据
+2018-01-18 11:34:37,169 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:34:37,277 / search_data / INFO / 查询完数据
+2018-01-18 11:35:44,759 / search_data / INFO / 准备查询数据
+2018-01-18 11:35:44,759 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:35:44,863 / search_data / INFO / 查询完数据
+2018-01-18 11:41:08,623 / search_data / INFO / 准备查询数据
+2018-01-18 11:41:08,623 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:41:08,829 / search_data / INFO / 查询完数据
+2018-01-18 11:42:48,712 / search_data / INFO / 准备查询数据
+2018-01-18 11:42:48,712 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:42:48,857 / search_data / INFO / 查询完数据
+2018-01-18 11:43:01,815 / search_data / INFO / 准备查询数据
+2018-01-18 11:43:01,815 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:43:02,047 / search_data / INFO / 查询完数据
+2018-01-18 11:43:27,861 / search_data / INFO / 准备查询数据
+2018-01-18 11:43:27,862 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:43:28,024 / search_data / INFO / 查询完数据
+2018-01-18 11:45:18,659 / search_data / INFO / 准备查询数据
+2018-01-18 11:45:18,660 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:45:18,834 / search_data / INFO / 查询完数据
+2018-01-18 11:47:37,295 / search_data / INFO / 准备查询数据
+2018-01-18 11:47:37,295 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:47:37,457 / search_data / INFO / 查询完数据
+2018-01-18 11:49:48,621 / search_data / INFO / 准备查询数据
+2018-01-18 11:49:48,621 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:49:48,768 / search_data / INFO / 查询完数据
+2018-01-18 11:51:12,260 / search_data / INFO / 准备查询数据
+2018-01-18 11:51:12,260 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:51:12,391 / search_data / INFO / 查询完数据
+2018-01-18 11:52:11,708 / search_data / INFO / 准备查询数据
+2018-01-18 11:52:11,708 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:52:11,894 / search_data / INFO / 查询完数据
+2018-01-18 11:53:28,034 / search_data / INFO / 准备查询数据
+2018-01-18 11:53:28,035 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:53:28,212 / search_data / INFO / 查询完数据
+2018-01-18 11:53:50,312 / search_data / INFO / 准备查询数据
+2018-01-18 11:53:50,312 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:53:50,455 / search_data / INFO / 查询完数据
+2018-01-18 11:54:09,778 / search_data / INFO / 准备查询数据
+2018-01-18 11:54:09,778 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:54:09,939 / search_data / INFO / 查询完数据
+2018-01-18 11:56:24,707 / search_data / INFO / 准备查询数据
+2018-01-18 11:56:24,707 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:56:24,856 / search_data / INFO / 查询完数据
+2018-01-18 11:58:21,671 / search_data / INFO / 准备查询数据
+2018-01-18 11:58:21,671 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 11:58:21,809 / search_data / INFO / 查询完数据
+2018-01-18 12:02:34,646 / search_data / INFO / 准备查询数据
+2018-01-18 12:02:34,646 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:02:34,825 / search_data / INFO / 查询完数据
+2018-01-18 12:04:09,470 / search_data / INFO / 准备查询数据
+2018-01-18 12:04:09,470 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:04:09,622 / search_data / INFO / 查询完数据
+2018-01-18 12:04:41,559 / search_data / INFO / 准备查询数据
+2018-01-18 12:04:41,559 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:04:41,762 / search_data / INFO / 查询完数据
+2018-01-18 12:05:11,851 / search_data / INFO / 准备查询数据
+2018-01-18 12:05:11,851 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:05:12,001 / search_data / INFO / 查询完数据
+2018-01-18 12:07:43,084 / search_data / INFO / 准备查询数据
+2018-01-18 12:07:43,084 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:07:43,251 / search_data / INFO / 查询完数据
+2018-01-18 12:08:44,016 / search_data / INFO / 准备查询数据
+2018-01-18 12:08:44,017 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:08:44,137 / search_data / INFO / 查询完数据
+2018-01-18 12:09:37,005 / search_data / INFO / 准备查询数据
+2018-01-18 12:09:37,005 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:09:37,162 / search_data / INFO / 查询完数据
+2018-01-18 12:13:34,508 / search_data / INFO / 准备查询数据
+2018-01-18 12:13:34,508 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:13:34,614 / search_data / INFO / 查询完数据
+2018-01-18 12:14:06,941 / search_data / INFO / 准备查询数据
+2018-01-18 12:14:06,941 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:14:07,129 / search_data / INFO / 查询完数据
+2018-01-18 12:14:27,157 / search_data / INFO / 准备查询数据
+2018-01-18 12:14:27,157 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:14:27,322 / search_data / INFO / 查询完数据
+2018-01-18 12:15:13,359 / search_data / INFO / 准备查询数据
+2018-01-18 12:15:13,359 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:15:13,666 / search_data / INFO / 查询完数据
+2018-01-18 12:15:46,418 / search_data / INFO / 准备查询数据
+2018-01-18 12:15:46,418 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:15:46,576 / search_data / INFO / 查询完数据
+2018-01-18 12:16:01,521 / search_data / INFO / 准备查询数据
+2018-01-18 12:16:01,521 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:16:01,626 / search_data / INFO / 查询完数据
+2018-01-18 12:17:13,022 / search_data / INFO / 准备查询数据
+2018-01-18 12:17:13,022 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:17:13,158 / search_data / INFO / 查询完数据
+2018-01-18 12:17:22,798 / search_data / INFO / 准备查询数据
+2018-01-18 12:17:22,798 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 12:17:22,938 / search_data / INFO / 查询完数据
+2018-01-18 13:49:23,659 / search_data / INFO / 准备查询数据
+2018-01-18 13:49:23,659 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 13:49:23,767 / search_data / INFO / 查询完数据
+2018-01-18 14:01:14,853 / search_data / INFO / 准备查询数据
+2018-01-18 14:01:14,854 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:01:14,961 / search_data / INFO / 查询完数据
+2018-01-18 14:02:07,750 / search_data / INFO / 准备查询数据
+2018-01-18 14:02:07,750 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:02:07,903 / search_data / INFO / 查询完数据
+2018-01-18 14:05:40,987 / search_data / INFO / 准备查询数据
+2018-01-18 14:05:40,987 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:05:41,153 / search_data / INFO / 查询完数据
+2018-01-18 14:10:36,762 / search_data / INFO / 准备查询数据
+2018-01-18 14:10:36,763 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:10:37,077 / search_data / INFO / 查询完数据
+2018-01-18 14:11:55,277 / search_data / INFO / 准备查询数据
+2018-01-18 14:11:55,277 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:11:55,474 / search_data / INFO / 查询完数据
+2018-01-18 14:13:43,280 / search_data / INFO / 准备查询数据
+2018-01-18 14:13:43,280 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:13:43,433 / search_data / INFO / 查询完数据
+2018-01-18 14:14:20,759 / search_data / INFO / 准备查询数据
+2018-01-18 14:14:20,759 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:14:20,886 / search_data / INFO / 查询完数据
+2018-01-18 14:14:50,363 / search_data / INFO / 准备查询数据
+2018-01-18 14:14:50,363 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:14:50,551 / search_data / INFO / 查询完数据
+2018-01-18 14:23:19,999 / search_data / INFO / 准备查询数据
+2018-01-18 14:23:19,999 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:23:20,179 / search_data / INFO / 查询完数据
+2018-01-18 14:24:07,677 / search_data / INFO / 准备查询数据
+2018-01-18 14:24:07,677 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:24:07,785 / search_data / INFO / 查询完数据
+2018-01-18 14:27:41,084 / search_data / INFO / 准备查询数据
+2018-01-18 14:27:41,084 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:27:41,295 / search_data / INFO / 查询完数据
+2018-01-18 14:28:04,238 / search_data / INFO / 准备查询数据
+2018-01-18 14:28:04,239 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:28:04,355 / search_data / INFO / 查询完数据
+2018-01-18 14:29:42,023 / search_data / INFO / 准备查询数据
+2018-01-18 14:29:42,023 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:29:42,173 / search_data / INFO / 查询完数据
+2018-01-18 14:30:04,959 / search_data / INFO / 准备查询数据
+2018-01-18 14:30:04,960 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:30:05,174 / search_data / INFO / 查询完数据
+2018-01-18 14:31:48,751 / search_data / INFO / 准备查询数据
+2018-01-18 14:31:48,751 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:31:48,914 / search_data / INFO / 查询完数据
+2018-01-18 14:34:04,678 / search_data / INFO / 准备查询数据
+2018-01-18 14:34:04,678 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:34:04,829 / search_data / INFO / 查询完数据
+2018-01-18 14:36:29,053 / search_data / INFO / 准备查询数据
+2018-01-18 14:36:29,053 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:36:29,337 / search_data / INFO / 查询完数据
+2018-01-18 14:36:45,872 / search_data / INFO / 准备查询数据
+2018-01-18 14:36:45,873 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:36:46,113 / search_data / INFO / 查询完数据
+2018-01-18 14:37:18,929 / search_data / INFO / 准备查询数据
+2018-01-18 14:37:18,929 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:37:19,036 / search_data / INFO / 查询完数据
+2018-01-18 14:40:06,900 / search_data / INFO / 准备查询数据
+2018-01-18 14:40:06,900 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 14:40:07,051 / search_data / INFO / 查询完数据
+2018-01-18 15:53:24,751 / search_data / INFO / 准备查询数据
+2018-01-18 15:53:24,751 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 15:53:24,861 / search_data / INFO / 查询完数据
+2018-01-18 15:54:03,376 / search_data / INFO / 准备查询数据
+2018-01-18 15:54:03,376 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 15:54:03,486 / search_data / INFO / 查询完数据
+2018-01-18 16:09:26,965 / search_data / INFO / 准备查询数据
+2018-01-18 16:09:26,966 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:09:27,156 / search_data / INFO / 查询完数据
+2018-01-18 16:10:18,358 / search_data / INFO / 准备查询数据
+2018-01-18 16:10:18,359 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:10:18,534 / search_data / INFO / 查询完数据
+2018-01-18 16:10:56,556 / search_data / INFO / 准备查询数据
+2018-01-18 16:10:56,557 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:10:56,819 / search_data / INFO / 查询完数据
+2018-01-18 16:12:27,101 / search_data / INFO / 准备查询数据
+2018-01-18 16:12:27,101 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:12:27,342 / search_data / INFO / 查询完数据
+2018-01-18 16:15:14,485 / search_data / INFO / 准备查询数据
+2018-01-18 16:15:14,485 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:15:14,595 / search_data / INFO / 查询完数据
+2018-01-18 16:15:41,414 / search_data / INFO / 准备查询数据
+2018-01-18 16:15:41,414 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:15:41,532 / search_data / INFO / 查询完数据
+2018-01-18 16:17:25,246 / search_data / INFO / 准备查询数据
+2018-01-18 16:17:25,246 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:17:25,346 / search_data / INFO / 查询完数据
+2018-01-18 16:18:43,376 / search_data / INFO / 准备查询数据
+2018-01-18 16:18:43,376 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:18:43,476 / search_data / INFO / 查询完数据
+2018-01-18 16:19:17,635 / search_data / INFO / 准备查询数据
+2018-01-18 16:19:17,636 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:19:17,735 / search_data / INFO / 查询完数据
+2018-01-18 16:19:34,867 / search_data / INFO / 准备查询数据
+2018-01-18 16:19:34,867 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:19:34,971 / search_data / INFO / 查询完数据
+2018-01-18 16:21:54,866 / search_data / INFO / 准备查询数据
+2018-01-18 16:21:54,866 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:21:55,008 / search_data / INFO / 查询完数据
+2018-01-18 16:22:11,392 / search_data / INFO / 准备查询数据
+2018-01-18 16:22:11,392 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:22:11,533 / search_data / INFO / 查询完数据
+2018-01-18 16:24:17,237 / search_data / INFO / 准备查询数据
+2018-01-18 16:24:17,237 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-18 16:24:17,357 / search_data / INFO / 查询完数据

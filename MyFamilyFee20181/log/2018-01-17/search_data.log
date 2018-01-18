@@ -1,0 +1,36 @@
+2018-01-17 16:51:33,942 / search_data / INFO / 准备查询数据
+2018-01-17 16:51:33,943 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:51:33,945 / search_data / INFO / 查询完数据
+2018-01-17 16:51:42,625 / search_data / INFO / 准备查询数据
+2018-01-17 16:51:42,625 / search_data / INFO / 准备查询数据
+2018-01-17 16:51:42,625 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:51:42,625 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:51:42,627 / search_data / INFO / 查询完数据
+2018-01-17 16:51:42,627 / search_data / INFO / 查询完数据
+2018-01-17 16:52:08,099 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:08,099 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:08,099 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:08,100 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id and u.name='张沐安'
+2018-01-17 16:52:08,100 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id and u.name='张沐安'
+2018-01-17 16:52:08,100 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id and u.name='张沐安'
+2018-01-17 16:52:08,102 / search_data / INFO / 查询完数据
+2018-01-17 16:52:08,102 / search_data / INFO / 查询完数据
+2018-01-17 16:52:08,102 / search_data / INFO / 查询完数据
+2018-01-17 16:52:36,564 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:36,565 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:52:36,565 / search_data / INFO / 查询完数据
+2018-01-17 16:52:38,182 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:38,182 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:38,182 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:52:38,182 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:52:38,184 / search_data / INFO / 查询完数据
+2018-01-17 16:52:38,184 / search_data / INFO / 查询完数据
+2018-01-17 16:52:54,985 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:54,985 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id 
+2018-01-17 16:52:54,986 / search_data / INFO / 查询完数据
+2018-01-17 16:52:58,030 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:58,030 / search_data / INFO / 准备查询数据
+2018-01-17 16:52:58,031 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id and u.name='张沐安'
+2018-01-17 16:52:58,031 / search_data / INFO / SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'       FROM user_info u,payment_info p, pay_info pay        WHERE u.id=pay.user_id AND p.id=pay.payment_id and u.name='张沐安'
+2018-01-17 16:52:58,033 / search_data / INFO / 查询完数据
+2018-01-17 16:52:58,033 / search_data / INFO / 查询完数据
