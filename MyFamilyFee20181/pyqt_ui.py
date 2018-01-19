@@ -97,8 +97,8 @@ class Example(QtGui.QMainWindow):
         self.horizontalLayout.addWidget(self.shouzhi_radio2)
 
         self.time_label = QtGui.QLabel('时间：')
-        self.time_edit1 = QtGui.QDateEdit()
-        self.time_edit2 = QtGui.QDateEdit()
+        self.time_edit1 = QtGui.QLineEdit()
+        self.time_edit2 = QtGui.QLineEdit()
 
         self.horizontalLayout.addWidget(self.time_label)
         self.horizontalLayout.addWidget(self.time_edit1)
@@ -220,8 +220,11 @@ class Example(QtGui.QMainWindow):
             shouzhi = '支出'
         elif self.shouzhi_radio2.isChecked():
             shouzhi = '收入'
+        createtime1 = self.time_edit1.text()
+        createtime2 = self.time_edit2.text()
         # print('shouzhi:' + shouzhi)
-        result = mysqloption.search_data(self.cur, name, shouzhi)
+        print('paytime1:%s,paytime2:%s'%(createtime1,createtime2))
+        result = mysqloption.search_data(self.cur, name, shouzhi,createtime1,createtime2)
         self.get_data(result)
         # print('result:'+result)
 

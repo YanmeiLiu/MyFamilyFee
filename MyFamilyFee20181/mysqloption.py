@@ -30,14 +30,14 @@ def connDB():  # 连接数据库
 
 
 def insert_sql(cur, conn, shouzhi, user_id, product_name, money, payment_id, createtime):
-    lg = logger.config_logger('insert_sql')
-    lg.info('准备插入数据')
+    # lg = logger.config_logger('insert_sql')
+    # lg.info('准备插入数据')
     sql = "insert into pay_info(shouzhi,user_id,  product_name,money,payment_id, createtime) values('%d','%d','%s','%s','%s','%s')" % (
         shouzhi, user_id, product_name, money, payment_id, createtime)
     try:
         sta = cur.execute(sql)
         conn.commit()
-        lg.info('数据已入库')
+        # lg.info('数据已入库')
     except:
         conn.rollback()
     return sta
@@ -49,8 +49,8 @@ def insertsqlfrom_zhifubao(cur, conn, user_id, payment_id,
                            edit_time, jiaoyilaiyuan, jiaoyileixing, jiaoyiduifang,product_name,
                             money, shouzhi, remark, zijinzhuangtai):
     aa = 0
-    lg = logger.config_logger('insertsqlfrom_zhifubao')
-    lg.info('准备插入数据')
+    # lg = logger.config_logger('insertsqlfrom_zhifubao')
+    # lg.info('准备插入数据')
     sql_zhifubao = "insert into pay_info(user_id,payment_id,jiaoyi_num,shanghudingdan_num, createtime , " \
                    "pay_time ,edit_time ,jiaoyilaiyuan ,jiaoyileixing ,jiaoyiduifang ," \
                    "product_name ,money  ,shouzhi  ,remark,zijinzhuangtai) " \
@@ -61,17 +61,17 @@ def insertsqlfrom_zhifubao(cur, conn, user_id, payment_id,
         aa = cur.execute(sql_zhifubao)
         print(aa)
         conn.commit()
-        lg.info('数据已入库')
+        # lg.info('数据已入库')
     except:
         conn.rollback()
     return aa
 
 
 # 根据查询条件（姓名、收支）查询数据
-def search_data(cur, name='', shouzhi=''):
+def search_data(cur, name='', shouzhi='',createtime1='',createtime2=''):
     lg = logger.config_logger('search_data')
     lg.info('准备查询数据')
-    sql = "SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi as '收支'\
+    sql = "SELECT u.name ,p.payname,pay.product_name,pay.createtime,pay.money ,pay.shouzhi\
        FROM user_info u,payment_info p, pay_info pay \
        WHERE u.id=pay.user_id AND p.id=pay.payment_id "
     i = 1
@@ -84,8 +84,18 @@ def search_data(cur, name='', shouzhi=''):
             sql = sql + "and pay.shouzhi='%s'" % (shouzhi)
             i = 0
         else:
-            sql = sql + "and pay.shouzhi='%s';" % (shouzhi)
+            sql = sql + "and pay.shouzhi='%s'" % (shouzhi)
             i = 1
+
+    if createtime1 != '' and createtime2 !='':
+        sql = sql + "and pay.createtime  BETWEEN '%s' AND '%s'"%(createtime1,createtime2)
+    elif createtime1=='' and createtime2 =='':
+        sql = sql
+    elif createtime1 =='':
+        sql = sql +"and pay.createtime  <'%s'"%(createtime2)
+    elif createtime2=='':
+        sql = sql +"and pay.createtime  >'%s'"%(createtime1)
+    sql = sql +" and pay.zijinzhuangtai !='' AND pay.zijinzhuangtai !='资金转移' order by pay.createtime DESC"
 
     lg.info(sql)
     try:

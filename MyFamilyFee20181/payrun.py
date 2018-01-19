@@ -18,7 +18,7 @@ lg = logger.config_logger('MainWindow')
 
 
 class MainWindow(object):
-    def __init__(self, width=650, height=300):
+    def __init__(self, width=680, height=300):
         self.width = width
         self.heigth = height
 
@@ -42,7 +42,7 @@ class MainWindow(object):
         treeframe.grid(row=1, column=0)
 
         # 查询条件，姓名
-        self.namelable = tkinter.Label(search_frame, text='姓      名：')
+        self.namelable = tkinter.Label(search_frame, text='姓名：')
         self.namelable.grid(row=0, column=0, pady=6)
         self.name = tkinter.StringVar()
         userlist = mysqloption.selectuser(self.cur)
@@ -62,19 +62,31 @@ class MainWindow(object):
         self.nameChosen.grid(row=0, column=1, pady=6)
 
         # 根据收支查询
-        modes = [('支出', '1'), ('收入', '2')]
-        self.shouzhi = tkinter.IntVar()
+        modes = ['支出','收入']
+        #通过self.shouzhi.get()来获取其的状态, 其状态值为int类型,勾选为1,未勾选为0
+        self.shouzhi = tkinter.StringVar()
         # 设置默认选中
         # self.shouzhi.set(1)
         for i, mode in enumerate(modes):
-            self.shouzhiRadiobutton = tkinter.Radiobutton(search_frame, text=modes[i][0], variable=self.shouzhi,
-                                                          value=modes[i][1])
-            self.shouzhiRadiobutton.grid(row=0, column=i + 3)
+            self.shouzhiCheckbutton = tkinter.Radiobutton(search_frame, text=mode, variable=self.shouzhi,value=mode)
+            self.shouzhiCheckbutton.grid(row=0, column=i + 2)
+
+
+        #查询时间
+        self.createtimelabel = tkinter.Label(search_frame,text='时间:')
+        self.createtimelabel1= tkinter.Label(search_frame,text='~')
+        self.createtime1 = tkinter.ttk.Entry(search_frame,width=10)
+        self.createtime2 = tkinter.ttk.Entry(search_frame,width =10)
+        self.createtimelabel.grid(row=0,column=5)
+        self.createtime1.grid(row=0,column=6)
+        self.createtimelabel1.grid(row=0,column=7)
+        self.createtime2.grid(row=0,column=8)
+
 
         # 查询按钮
         self.button = tkinter.StringVar()
         self.button_search = tkinter.Button(search_frame, text='查询', width=10)
-        self.button_search.grid(row=0, column=5, pady=6, padx=10)
+        self.button_search.grid(row=0, column=9, pady=6, padx=10)
         self.button_search.bind("<Button-1>", self.buttonListener4)
 
         self.tree = tkinter.ttk.Treeview(treeframe, show='headings')  # 表格 show='headings'即隐藏首列#
@@ -85,17 +97,16 @@ class MainWindow(object):
         self.vbar.set(0.5, 1)
 
         self.tree.configure(yscroll=self.vbar.set)
-        # self.tree['yscrollcommand'] = self.vbar.set
         self.tree.bind('<<TreeviewSelect>>')
 
         self.tree["columns"] = ('id', '收入/支出', '姓名', '用途', '金额', '支付方式', '时间')
-        self.tree.column("id", width=80, anchor='center')
-        self.tree.column("收入/支出", width=90, anchor='center')  # 表示列,不显示
+        self.tree.column("id", width=70, anchor='center')
+        self.tree.column("收入/支出", width=80, anchor='center')  # 表示列,不显示
         self.tree.column('姓名', width=100, anchor='center')
-        self.tree.column('用途', width=100, anchor='center')
+        self.tree.column('用途', width=120, anchor='center')
         self.tree.column('金额', width=80, anchor='center')
         self.tree.column('支付方式', width=80, anchor='center')
-        self.tree.column('时间', width=100, anchor='center')
+        self.tree.column('时间', width=130, anchor='center')
         # 显示表头
         self.tree.heading("id", text="id")
         self.tree.heading("收入/支出", text="收入/支出")
@@ -109,11 +120,16 @@ class MainWindow(object):
 
         search = '1'
         if search != 'ButtonPress':
-            results = mysqloption.search_data(self.cur)
-            self.get_tree(results)
+            results = self.get_data()
+            self.show_tree(results)
 
-    # 主界面插入数据
-    def get_tree(self, results):
+
+    def get_data(self):
+        results = mysqloption.search_data(self.cur)
+        return results
+
+    # 主界面展示数据
+    def show_tree(self, results):
 
         # 先清空原来显示的数据，再插入显示更新的数据
         items = self.tree.get_children()
@@ -291,9 +307,9 @@ class MainWindow(object):
         self.paytimeEntered.delete('0', 'end')
         self.payment.set('0')
 
-    def buttonListener3(self):  # 创建第三个事件，导出结果到excel中
+    def buttonListener3(self,result):  # 创建第三个事件，导出结果到excel中
 
-        result = mysqloption.search_data(self.cur)
+        # result = mysqloption.search_data(self.cur)
         OE = optionExcel.OptionExcel(result)
         OE.CreateExcel()
 
@@ -302,7 +318,9 @@ class MainWindow(object):
             tkinter.messagebox.askyesno('导出数据', '确认导出数据到excel文件吗？请注意保存路径是D:\study\MyFamilyFee20181\caseresult_path')
 
         if self.export_message:
-            self.buttonListener3()
+            results = self.get_data()
+            OE = optionExcel.OptionExcel(results)
+            OE.CreateExcel()
 
     def import_data(self):
 
@@ -353,20 +371,23 @@ class MainWindow(object):
 
 
 
-
     def buttonListener5(self,event):
         pass
 
-    def buttonListener4(self, event):  # 查询按钮触发的事件
+    def buttonListener4(self,event):  # 查询按钮触发的事件
 
         name = self.nameChosen.get()
         shouzhi = self.shouzhi.get()
-        lg.info('姓名:%s,收入\支出（1：支出，2：收入）:%d' % (name, shouzhi))
-        if shouzhi == 1 or shouzhi == 2:
-            result = mysqloption.search_data(self.cur, name, shouzhi)
-        else:
-            result = mysqloption.search_data(self.cur, name)
+        createtime1 = self.createtime1.get()
+        createtime2 = self.createtime2.get()
         self.root.update()
-        self.get_tree(result)
+        lg.info('姓名:%s,收支:%s，时间：%s~%s' % (name, shouzhi,createtime1,createtime2))
+        if shouzhi == '支出' or shouzhi == '收入':
+            result = mysqloption.search_data(self.cur, name, shouzhi,createtime1,createtime2)
+        else:
+            result = mysqloption.search_data(self.cur, name,createtime1,createtime2)
+
+        self.show_tree(result)
+        return result
 if __name__ == '__main__':
     mw = MainWindow()

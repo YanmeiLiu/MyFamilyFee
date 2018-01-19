@@ -28,7 +28,7 @@ class OptionExcel(object):
         sheet['B1'] = '姓名'
         sheet['C1'] = '支付方式'
         sheet['D1'] = '金额'
-        sheet['E1'] = '用途'
+        sheet['E1'] = '商品名'
         sheet['F1'] = '时间'
 
         for n in range(3, len(self.result) + 3):
@@ -36,7 +36,7 @@ class OptionExcel(object):
             sheet.cell(row=n - 1, column=2).value = self.result[n - 3]['name']
             sheet.cell(row=n - 1, column=3).value = self.result[n - 3]['payname']
             sheet.cell(row=n - 1, column=4).value = self.result[n - 3]['money']
-            sheet.cell(row=n - 1, column=5).value = self.result[n - 3]['dowhat']
+            sheet.cell(row=n - 1, column=5).value = self.result[n - 3]['product_name']
             sheet.cell(row=n - 1, column=6).value = self.result[n - 3]['createtime']
 
         dt = time.strftime('%Y%m%d-%H%M%S', time.localtime())
